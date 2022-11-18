@@ -1,7 +1,7 @@
 import cv2
 from matplotlib import pyplot as plt
 
-im = cv2.imread('siberian-husky.jpeg')
+im = cv2.imread('T0001.jpg')
 print(im.shape)
 
 # plt.hist(im.ravel(), bins=50, density=True)

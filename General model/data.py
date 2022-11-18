@@ -16,6 +16,7 @@ def load_data(path):
     train_y = sorted(glob(os.path.join(path,"G+N", '*.bmp')))
     test_x = sorted(glob(os.path.join(path,"Images", '*.jpg')))
     test_y = sorted(glob(os.path.join(path,"G+N", '*.bmp')))
+    print(len(train_x))
 
     return (train_x, train_y), (test_x,test_y)
 
